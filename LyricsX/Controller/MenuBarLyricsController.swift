@@ -111,12 +111,12 @@ class MenuBarLyricsController {
         //    setTextStatusItem(string: proposed)
         //}
         // truncation
-        var components = screenLyrics.components(options: [.byWords])
-        while !statusItem.isVisibe {
-            components.removeLast()
-            let proposed = components.joined() + "..."
-            setTextStatusItem(string: proposed)
-        }
+        //var components = screenLyrics.components(options: [.byWords])
+        //while !statusItem.isVisibe {
+        //    components.removeLast()
+        //    let proposed = components.joined() + "..."
+        //    setTextStatusItem(string: proposed)
+        //}
     }
     
     private func setTextStatusItem(string: String) {
